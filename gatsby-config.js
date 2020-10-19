@@ -6,7 +6,7 @@ module.exports = {
         options: {
           fonts: [
             `Montserrat`,
-            `\:300,400,700`
+            `\:100,200,300,400,700`
           ],
           display: 'swap'
         }

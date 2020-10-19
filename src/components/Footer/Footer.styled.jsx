@@ -40,7 +40,7 @@ export const StyledFooter = styled.footer`
 
   .footer-cta h1 {
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 200;
     margin: 0 0 0 0;
   }
 
@@ -48,6 +48,6 @@ export const StyledFooter = styled.footer`
     font-size: 12px;
     margin: 5px 0 0 0;
     text-decoration: none;
-    color: ${({ theme }) => theme.mainLgray};
+    color: ${props => props.theme.mainLgray};
   }
 `;
