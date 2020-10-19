@@ -1,14 +1,12 @@
 import React from 'react';
 import Footer from '../components/Footer/Footer';
-import Hero from '../components/Hero/Hero';
 
-const Home = () => {
+const Portfolio = () => {
   return (
     <>
-      <Hero />
       <Footer />
     </>
   );
 };
 
-export default Home;
+export default Portfolio;

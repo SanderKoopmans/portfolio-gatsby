@@ -1,7 +1,6 @@
 module.exports = {
   plugins: 
     [
-      `gatsby-plugin-styled-components`,
       {
         resolve: `gatsby-plugin-google-fonts`,
         options: {
@@ -11,6 +10,15 @@ module.exports = {
           ],
           display: 'swap'
         }
-      }
+      },
+      {
+        resolve: `gatsby-plugin-material-ui`,
+        options: {
+          stylesProvider: {
+            injectFirst: true,
+          },
+        },
+      },
+      `gatsby-plugin-styled-components`,
     ],
-}
+};

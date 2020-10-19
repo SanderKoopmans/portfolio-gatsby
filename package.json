@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/SanderKoopmans/portfolio-gatsby#readme",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.24.82",
     "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-material-ui": "^2.1.10",
     "gatsby-plugin-styled-components": "^3.3.14",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
