@@ -29,3 +29,32 @@ font-size: 1rem;
 font-weight: 400;
 }
 `;
+
+export const StyledTopBar = styled.div`
+  position: fixed;
+  top: 0;
+  height: 7.5%;
+  width: 100%;
+  transition: all 0.3s linear;
+  // background: ${props => props.theme.mainDark};
+
+  &.scrolled {
+    background: ${props => props.theme.mainDark};
+    box-shadow: 0 5px 10px 0 ${props => props.theme.mainLgray};
+  }
+`;
+
+export const StyledLogo = styled.a`
+  text-transform: uppercase;
+  color: ${props => props.theme.mainWhite};
+  text-decoration: none;
+  position: fixed;
+  top: 2%;
+  left: 2rem;
+  font-size: 1.5rem;
+  visibility: hidden;
+
+  &.scrolled {
+    visibility: visible;
+  }
+`;
