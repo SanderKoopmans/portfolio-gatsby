@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-gatsby",
+  "version": "1.0.0",
+  "description": "portfolio personal-website gatsby react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanderKoopmans/portfolio-gatsby.git"
+  },
+  "author": "Sander Koopmans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanderKoopmans/portfolio-gatsby/issues"
+  },
+  "homepage": "https://github.com/SanderKoopmans/portfolio-gatsby#readme",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.11.1",
+    "gatsby": "^2.24.82",
+    "gatsby-plugin-styled-components": "^3.3.14",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "styled-components": "^5.2.0"
+  }
+}
