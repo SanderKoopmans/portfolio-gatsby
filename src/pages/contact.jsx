@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SubBar from '../components/SubBar/SubBar';
+import { Columns, Column } from '../components/Columns';
 import { Form } from '../components/Form/Form.styled';
 import FormInput from '../components/Form/FormInput';
 import FormText from '../components/Form/FormText';
@@ -48,47 +49,55 @@ const Contact = () => {
   return (
     <>
       <SubBar />
-      <Wrapper>
-        <h2>Snel bellen? Of liever een bericht achter laten?</h2>
-        <div className="contactContainer">
-          <Form onSubmit={handleSubmit} method="POST" >
-                <FormInput 
-                  icon={<PersonIcon />}
-                  label='Name:'
-                  name='name'
-                  type='text'
-                  value={name}
-                  onChange={e => setName(e.target.value)}
-                  placeholder='Please enter your name'
-                  required
-                  className='input'
-                  />
-                <FormInput 
-                  icon={<EmailIcon />}
-                  label='Email:'
-                  name='email'
-                  type='text'
-                  value={email}
-                  onChange={e => setEmail(e.target.value)}
-                  placeholder='Please enter your email'
-                  required
-                  className='input'
-                  />
-                <FormText 
-                  icon={<SubjectIcon />}
-                  label='Message:'
-                  name='message'
-                  type='text'
-                  value={message}
-                  onChange={e => setMessage(e.target.value)}
-                  placeholder='Write a short message'
-                  rows={5}
-                  required
-                  className='textarea'
-                />
-                <button type="submit" className="contact-submit">Send message!</button>
-              </Form>
-        </div>
+      <Wrapper className='page-wrapper'>
+        <Wrapper className='content-wrapper'>
+          <Columns>
+            <Column>
+              <h3>Left column</h3>
+            </Column>
+            <Column>
+              <div className="contactContainer">
+                <Form onSubmit={handleSubmit} method="POST" >
+                      <FormInput 
+                        icon={<PersonIcon />}
+                        label='Name:'
+                        name='name'
+                        type='text'
+                        value={name}
+                        onChange={e => setName(e.target.value)}
+                        placeholder='Please enter your name'
+                        required
+                        className='input'
+                        />
+                      <FormInput 
+                        icon={<EmailIcon />}
+                        label='Email:'
+                        name='email'
+                        type='text'
+                        value={email}
+                        onChange={e => setEmail(e.target.value)}
+                        placeholder='Please enter your email'
+                        required
+                        className='input'
+                        />
+                      <FormText 
+                        icon={<SubjectIcon />}
+                        label='Message:'
+                        name='message'
+                        type='text'
+                        value={message}
+                        onChange={e => setMessage(e.target.value)}
+                        placeholder='Write a short message'
+                        rows={5}
+                        required
+                        className='textarea'
+                      />
+                      <button type="submit" className="contact-submit">Send message!</button>
+                    </Form>
+              </div>
+            </Column>
+          </Columns>
+        </Wrapper>
       </Wrapper>
       <Footer />
     </>

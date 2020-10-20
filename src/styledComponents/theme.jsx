@@ -9,7 +9,8 @@ const theme = {
   mainLgray: '#97AFB9',
   mainWhite: '#ffffff',
   mainBlack: '#1B1C1E',
-  mobile: '576px'
+  mobile: '576px',
+  tablet: '768px'
 }
 
 export default theme;

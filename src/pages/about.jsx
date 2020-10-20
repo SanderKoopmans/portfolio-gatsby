@@ -7,8 +7,10 @@ const About = () => {
   return (
     <>
       <SubBar />
-      <Wrapper>
-        <h1>Content coming soon...</h1>
+      <Wrapper className='page-wrapper'>
+        <Wrapper className='content-wrapper'>
+          <h1>Content coming soon...</h1>
+        </Wrapper>
       </Wrapper>
       <Footer />
     </>

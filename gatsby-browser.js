@@ -32,15 +32,24 @@ const GlobalStyles = createGlobalStyle`
     font-weight: 300;
     text-transform: uppercase;
   }
-  // add custom component for following styles
-  section {
-    padding: 10px;
-  }
 
   .page-wrapper {
-    padding-top: 10%;
-    margin: 10px 0;
+    padding-top: 8%;
     flex: 1 0 auto;
+  }
+
+  .content-wrapper {
+    margin: 10px auto 0 auto;
+    flex: 1 0 auto;
+    width: 90%;
+
+    @media (min-width: ${props => props.theme.mobile}) {
+      width: 80%;
+    }
+  }
+
+  .section:nth-child(even) {
+    background: ${props => props.theme.mainLgray};
   }
 
   .contactContainer {
