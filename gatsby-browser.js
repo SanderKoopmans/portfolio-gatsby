@@ -43,6 +43,11 @@ const GlobalStyles = createGlobalStyle`
     flex: 1 0 auto;
   }
 
+  .contactContainer {
+    background: ${props => props.theme.mainLgray};
+    padding: 15px;
+  }
+
   #homeLink {
     text-decoration: none;
     color: ${props => props.theme.mainWhite};
