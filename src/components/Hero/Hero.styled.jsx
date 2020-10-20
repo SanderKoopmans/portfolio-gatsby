@@ -19,7 +19,7 @@ justify-content: center;
 .mainTitle, .mainIntro {
   margin: 0 0 20px 0;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 3rem;
   color: ${props => props.theme.mainWhite};
 }

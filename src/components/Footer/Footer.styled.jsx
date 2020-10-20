@@ -26,7 +26,7 @@ export const StyledFooter = styled.footer`
   .footer-tagline {
     display: flex;
     justify-content: flex-start;
-    font-weight: 300;
+    font-weight: 400;
     transition: all 0.3s linear;
 
     & h6 {
@@ -40,7 +40,7 @@ export const StyledFooter = styled.footer`
 
   .footer-cta h1 {
     font-size: 3rem;
-    font-weight: 200;
+    font-weight: 300;
     margin: 0 0 0 0;
   }
 

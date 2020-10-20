@@ -21,7 +21,7 @@
     "@material-ui/icons": "^4.9.1",
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.24.82",
-    "gatsby-plugin-google-fonts-v2": "0.0.6",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-material-ui": "^2.1.10",
     "gatsby-plugin-styled-components": "^3.3.14",
     "react": "^16.14.0",
