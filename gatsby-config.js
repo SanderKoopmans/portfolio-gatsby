@@ -2,13 +2,14 @@ module.exports = {
   plugins: 
     [
       {
-        resolve: `gatsby-plugin-google-fonts`,
+        resolve: `gatsby-plugin-google-fonts-v2`,
         options: {
           fonts: [
-            `Montserrat`,
-            `\:100,200,300,400,700`
+            {
+              family: 'Montserrat',
+              weights: ['100,200,300,400,700']
+            }
           ],
-          display: 'swap'
         }
       },
       {

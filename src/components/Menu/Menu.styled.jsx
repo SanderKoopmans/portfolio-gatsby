@@ -22,7 +22,7 @@ export const StyledMenu = styled.nav`
   a {
     font-size: 2rem;
     text-transform: uppercase;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     font-weight: bold;
     letter-spacing: 0.5rem;
     color: ${props => props.theme.mainBgColor};
