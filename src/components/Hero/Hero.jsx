@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { useOnClickOutside, useWindowDimensions } from '../../hooks/hooks';
+import { useOnClickOutside } from '../../hooks/hooks';
 import { Link } from 'gatsby';
 import MobileBurger from '../Burger/MobileBurger';
 import MobileMenu from '../Menu/Menu';
@@ -12,11 +12,10 @@ const Hero = () => {
   const node = useRef();
   useOnClickOutside(node, () => setMobileMenuOpen(false));
 
-  const { height } = useWindowDimensions();
-  const adjustedHeight = height - 35;
+
   
   const changeTopBar = () => {
-    if (window.scrollY >= adjustedHeight) {
+    if (window.scrollY >= 630) {
       setTopbar(true);
     } else {
       setTopbar(false);
