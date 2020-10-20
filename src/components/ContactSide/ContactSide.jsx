@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import { StyledContactSide } from './ContactSide.styled';
+import { Form } from '../Form/Form.styled';
+import FormInput from '../Form/FormInput';
+import FormText from '../Form/FormText';
 import CallIcon from '@material-ui/icons/Call';
+import PersonIcon from '@material-ui/icons/Person';
+import EmailIcon from '@material-ui/icons/Email';
+import SubjectIcon from '@material-ui/icons/Subject';
 import CloseIcon from '@material-ui/icons/Close';
 
 const ContactSide = ({ contactSideOpen, setContactSideOpen }) => {
@@ -50,28 +56,43 @@ const ContactSide = ({ contactSideOpen, setContactSideOpen }) => {
             <a href="tel:06-30087005"><CallIcon /> +31 6 30087005</a>
           </div>
           <div className="contact-side">
-            <form onSubmit={handleSubmit} method="POST" >
-              <label htmlFor="name">Name:</label>
-              <input 
-                type="text" 
+            <Form onSubmit={handleSubmit} method="POST" >
+              <FormInput 
+                icon={<PersonIcon />}
+                label='Name:'
+                name='name'
+                type='text'
                 value={name}
-                placeholder="Please enter your name" 
-                onChange={e => setName(e.target.value)} />
-              <label htmlFor="email">Email:</label>
-              <input 
-                type="email" 
+                onChange={e => setName(e.target.value)}
+                placeholder='Please enter your name'
+                required
+                className='input'
+                />
+              <FormInput 
+                icon={<EmailIcon />}
+                label='Email:'
+                name='email'
+                type='text'
                 value={email}
-                placeholder="Please enter your email"
-                onChange={e => setEmail(e.target.value)} />
-              <label htmlFor="message">Message:</label>
-              <textarea 
-                type="text" 
+                onChange={e => setEmail(e.target.value)}
+                placeholder='Please enter your email'
+                required
+                className='input'
+                />
+              <FormText 
+                icon={<SubjectIcon />}
+                label='Message:'
+                name='message'
+                type='text'
                 value={message}
-                placeholder="Write a short message" 
-                rows={5} 
-                onChange={e => setMessage(e.target.value)} />
+                onChange={e => setMessage(e.target.value)}
+                placeholder='Write a short message'
+                rows={5}
+                required
+                className='textarea'
+              />
               <button type="submit" className="contact-submit">Send message!</button>
-            </form>
+            </Form>
           </div>
         <button className="close-side" onClick={() => setContactSideOpen(!contactSideOpen)}><CloseIcon /></button>
         </div>

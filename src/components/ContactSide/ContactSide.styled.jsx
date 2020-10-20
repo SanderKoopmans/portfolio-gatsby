@@ -54,47 +54,6 @@ a {
   }
 }
 
-.contact-side form {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 0;
-}
-
-.contact-side label {
-  margin: 5px;
-  color: ${props => props.theme.mainBgColor};
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.contact-side input, .contact-side textarea {
-  padding: 5px;
-  border-radius: 3px;
-  border: none;
-}
-
-.contact-submit {
-  margin: 1rem 0;
-  padding: 1rem;
-  background: ${props => props.theme.mainDgray};
-  color: ${props => props.theme.mainWhite};
-  border: 1px solid ${props => props.theme.mainDgray};
-  border-radius: 3px;
-
-  &:hover {
-    cursor: pointer;
-    background: ${props => props.theme.mainHighlight};
-    border: 1px solid ${props => props.theme.mainHighlight};
-  }
-
-  &:active {
-    cursor: pointer;
-    background: ${props => props.theme.mainHighlight};
-    border: 1px solid ${props => props.theme.mainHighlight};
-  }
-}
-
 .close-side {
   padding: 0.5rem;
   background: ${props => props.theme.mainDgray};
