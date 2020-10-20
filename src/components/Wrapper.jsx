@@ -7,9 +7,9 @@ const StyledWrapper = styled.div`
   flex: 1 0 auto;
 `;
 
-const Wrapper = () => {
+const Wrapper = ({ children }) => {
   return (
-    <StyledWrapper />
+    <StyledWrapper>{children}</StyledWrapper>
   )
 }
 

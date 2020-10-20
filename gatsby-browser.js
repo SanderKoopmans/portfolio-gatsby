@@ -18,6 +18,16 @@ const GlobalStyles = createGlobalStyle`
     flex-direction: column;
   }
 
+  #___gatsby {
+    height: 100%;
+  }
+
+  #gatsby-focus-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
   h4 {
     font-weight: 300;
     text-transform: uppercase;
