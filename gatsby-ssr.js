@@ -28,6 +28,10 @@ const GlobalStyles = createGlobalStyle`
     flex-direction: column;
   }
 
+  .background {
+    background: linear-gradient(135deg, ${props => props.theme.mainBgColor} 0%, ${props => props.theme.mainBgShade} 100%);
+  }
+
   .contactContainer {
     padding: 15px;
   }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { StyledContactSide } from './ContactSide.styled';
 import { Form } from '../Form/Form.styled';
+import { H2, A } from '../Font';
 import FormInput from '../Form/FormInput';
 import FormText from '../Form/FormText';
 import CallIcon from '@material-ui/icons/Call';
@@ -50,10 +51,10 @@ const ContactSide = ({ contactSideOpen, setContactSideOpen }) => {
       className="ContactSide"
       contactSideOpen={contactSideOpen} >
         <div className="contactSide-menu">
-          <h2>Let's talk!</h2>
+          <H2 className='bold'>Let's talk!</H2>
           <p>Call me right now, or leave a message and I'll get back to you within 24 hours.</p>
           <div className="contact-tel">
-            <a href="tel:06-30087005"><CallIcon /> +31 6 30087005</a>
+            <A href="tel:06-30087005"><CallIcon /> +31 6 30087005</A>
           </div>
           <div className="contact-side">
             <Form onSubmit={handleSubmit} method="POST" >

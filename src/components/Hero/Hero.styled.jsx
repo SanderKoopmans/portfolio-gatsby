@@ -30,7 +30,7 @@ justify-content: center;
 }
 `;
 
-export const StyledTopBar = styled.div`
+export const StyledTopBar = styled.nav`
   position: fixed;
   top: 0;
   height: 7.5%;

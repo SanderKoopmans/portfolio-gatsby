@@ -3,7 +3,7 @@ import SubBar from '../components/SubBar/SubBar';
 import { Columns, Column } from '../components/Columns';
 import { Section } from '../components/Sections';
 import { Form } from '../components/Form/Form.styled';
-import { H1 } from '../components/Font';
+import { H2, H3, A } from '../components/Font';
 import FormInput from '../components/Form/FormInput';
 import FormText from '../components/Form/FormText';
 import CallIcon from '@material-ui/icons/Call';
@@ -52,14 +52,21 @@ const Contact = () => {
     <>
       <SubBar />
       <Wrapper className='page-wrapper'>
-          <Section className='section'>
-            <H1 className='mainAccent'>Ben je opzoek naar een snel antwoord? Of laat je liever een bericht achter?</H1>
-          </Section>
+          <header className='section background'>
+            <H2 className='mainAccent'>Kriebelende vingers? Vele ideëen?</H2>
+            <H3 className='mainAccent'>Ben je opzoek naar een snel antwoord? Of laat je liever een bericht achter?</H3>
+            <p>Vragen, opmerkingen of tips zijn ook altijd welkom!</p>
+          </header>
           <Section className='section'>
             <Wrapper className='content-wrapper'>
             <Columns>
               <Column>
-                <h3>Left column</h3>
+                <H3>Bel direct</H3>
+                <div className="contact-tel">
+                  <A href="tel:06-30087005"><CallIcon /> +31 6 30087005</A>
+                </div>
+                <br />
+                <p>Of laat een bericht achter en ik kom bij je terug binnen 24 uur.</p>
               </Column>
               <Column>
                 <div className="contactContainer">
