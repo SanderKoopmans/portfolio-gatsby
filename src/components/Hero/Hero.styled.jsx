@@ -33,7 +33,7 @@ justify-content: center;
 export const StyledTopBar = styled.nav`
   position: fixed;
   top: 0;
-  height: 7.5%;
+  height: 55px;
   width: 100%;
   transition: all 0.3s linear;
   // background: ${props => props.theme.mainDark};

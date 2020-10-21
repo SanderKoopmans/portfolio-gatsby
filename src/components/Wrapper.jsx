@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const StyledWrapper = styled.div`
   &.page-wrapper {
-    padding-top: 8%;
+    padding-top: 55px;
     flex: 1 0 auto;
   }
 

@@ -5,7 +5,7 @@ const StyledH1 = styled.h1`
   font-weight: 300;
   font-size: 3rem;
   color: ${props => props.theme.mainBlack};
-  margin: 1rem;
+  margin: 0 0 1rem 0;
 
   &.mainWhite {
     color: ${props => props.theme.mainWhite};
@@ -16,7 +16,7 @@ const StyledH2 = styled.h2`
   font-weight: 300;
   font-size: 2rem;
   color: ${props => props.theme.mainBlack};
-  margin: 1rem;
+  margin: 0 0 1rem 0;
   padding-bottom: 1rem;
 
   &.mainWhite {
@@ -32,7 +32,7 @@ const StyledH3 = styled.h3`
   font-weight: 300;
   font-size: 1.5rem;
   color: ${props => props.theme.mainBlack};
-  margin: 1rem;
+  margin: 0 0 1rem 0;
   padding-bottom: 1rem;
 
   &.mainWhite {
@@ -44,7 +44,7 @@ const StyledH4 = styled.h4`
   font-weight: 300;
   text-transform: uppercase;
   color: ${props => props.theme.mainBlack};
-  margin: 1rem;
+  margin: 0 0 1rem 0;
   
   &.mainWhite {
     color: ${props => props.theme.mainWhite};
