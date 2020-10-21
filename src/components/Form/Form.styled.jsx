@@ -20,7 +20,7 @@ export const Form = styled.form`
   label {
     transform: translate(14px, -6px) scale(0.75);
     position: absolute;
-    z-index: 1;
+    // z-index: 1;
   }
 
   label, svg {
@@ -48,7 +48,7 @@ export const Form = styled.form`
 
   svg {
     font-size: 1.5rem;
-    z-index: 1;
+    // z-index: 1;
   }
 
   input, textarea {
@@ -61,7 +61,7 @@ export const Form = styled.form`
     min-width: 0;
     background: none;
     box-sizing: content-box;
-    z-index: 1;
+    // z-index: 1;
   }
 
   textarea {
@@ -82,7 +82,7 @@ export const Form = styled.form`
     overflow: hidden;
     position: absolute;
     background: ${props => props.theme.mainWhite};
-    z-index: 0;
+    // z-index: 0;
     box-shadow: 5px 5px 15px 5px rgba(10, 10, 10, 0.1);
   }
 

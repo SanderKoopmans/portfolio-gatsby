@@ -3,7 +3,7 @@ import SubBar from '../components/SubBar/SubBar';
 import { Columns, Column } from '../components/Columns';
 import { Section } from '../components/Sections';
 import { Form } from '../components/Form/Form.styled';
-import { H2, H3, A } from '../components/Font';
+import { H2, H3, H4, A } from '../components/Font';
 import FormInput from '../components/Form/FormInput';
 import FormText from '../components/Form/FormText';
 import CallIcon from '@material-ui/icons/Call';
@@ -52,10 +52,10 @@ const Contact = () => {
     <>
       <SubBar />
       <Wrapper className='page-wrapper'>
-          <header className='section background'>
-            <H2 className='mainAccent'>Kriebelende vingers? Vele ideëen?</H2>
-            <H3 className='mainAccent'>Ben je opzoek naar een snel antwoord? Of laat je liever een bericht achter?</H3>
-            <p>Vragen, opmerkingen of tips zijn ook altijd welkom!</p>
+          <header className='section background content-small'>
+            <H4 className='mainWhite'>Heb je een vraag?</H4>
+            <H2 className='mainWhite'>Neem contact op!</H2>
+            <p>Ik ben hier om te helpen, en elke vraag die je hebt te beantwoorden. Ik kijk ernaar uit van je te horen.</p>
           </header>
           <Section className='section'>
             <Wrapper className='content-wrapper'>

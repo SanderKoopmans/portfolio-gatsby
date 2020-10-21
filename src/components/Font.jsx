@@ -42,10 +42,13 @@ const StyledH3 = styled.h3`
 
 const StyledH4 = styled.h4`
   font-weight: 300;
-  text-transform: uppercase;
+  
   color: ${props => props.theme.mainBlack};
   margin: 0 0 1rem 0;
   
+  &.uppercase {
+    text-transform: uppercase;
+  }
   &.mainWhite {
     color: ${props => props.theme.mainWhite};
   }

@@ -15,6 +15,7 @@ right: 0;
 transition: transform 0.3s ease-in-out;
 transform: ${({ contactSideOpen }) => contactSideOpen ? 'translateX(0)' : 'translateX(+130%)'};
 max-width: ${props => props.theme.mobile};
+z-index: 5;
 
 .contactSide-menu {
   width: 90%;

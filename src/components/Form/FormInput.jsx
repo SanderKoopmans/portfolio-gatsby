@@ -16,6 +16,9 @@ const FormInput = ({
 
   return (
     <div className="inputGroup">
+      <fieldset>
+        <legend><span></span></legend>
+      </fieldset>
       <label htmlFor={name}>{label}</label>
       <div className="inputBase">
         <div className="inputIcon">
@@ -30,9 +33,6 @@ const FormInput = ({
           value={value}
           className={className}
         />
-        <fieldset>
-          <legend><span></span></legend>
-        </fieldset>
       </div>
     </div>
   )

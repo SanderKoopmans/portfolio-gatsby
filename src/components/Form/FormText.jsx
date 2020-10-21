@@ -17,6 +17,9 @@ const FormText = ({
 
   return (
     <div className="inputGroup">
+      <fieldset>
+        <legend><span></span></legend>
+      </fieldset>
       <label htmlFor={name}>{label}</label>
       <div className="inputBase">
         <div className="inputIcon">
@@ -32,9 +35,7 @@ const FormText = ({
           className={className}
           rows={rows}
         />
-        <fieldset>
-          <legend><span></span></legend>
-        </fieldset>
+
       </div>
     </div>
   )

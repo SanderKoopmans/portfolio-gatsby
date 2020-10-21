@@ -36,6 +36,7 @@ export const StyledTopBar = styled.nav`
   height: 55px;
   width: 100%;
   transition: all 0.3s linear;
+  z-index: 10;
 
   &.scrolled {
     background: ${props => props.theme.mainDark};

@@ -29,8 +29,18 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .background {
-    background: linear-gradient(135deg, ${props => props.theme.mainBgColor} 0%, ${props => props.theme.mainBgShade} 100%);
+    padding: 40px 0 25px 0;
+    background: ${props => props.theme.mainLgray};
+    // background: linear-gradient(135deg, ${props => props.theme.mainBgColor} 0%, ${props => props.theme.mainBgShade} 100%);
     color: ${props => props.theme.mainWhite};
+  }
+
+  .content-small {
+    padding: 40px 10% 25px 10%;
+
+    @media (min-width: ${props => props.theme.mobile}) {
+      padding: 40px 30% 25px 30%;
+    }
   }
 
   .contactContainer {
