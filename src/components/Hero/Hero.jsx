@@ -3,6 +3,7 @@ import { useOnClickOutside } from '../../hooks/hooks';
 import { Link } from 'gatsby';
 import MobileBurger from '../Burger/MobileBurger';
 import MobileMenu from '../Menu/Menu';
+import { H1 } from '../Font';
 import { StyledHero, StyledTopBar, StyledLogo } from './Hero.styled';
 
 const Hero = () => {
@@ -47,7 +48,7 @@ const Hero = () => {
         </div>
       </StyledTopBar>
       <div className="headerContent">
-        <h1 className="mainTitle">Sander Koopmans</h1>
+        <H1 className="mainTitle">Sander Koopmans</H1>
         <p className="mainIntro">Dutch web developer using react.js, node.js and material-ui</p>
       </div>
     </StyledHero>

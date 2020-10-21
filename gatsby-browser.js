@@ -28,32 +28,7 @@ const GlobalStyles = createGlobalStyle`
     flex-direction: column;
   }
 
-  h4 {
-    font-weight: 300;
-    text-transform: uppercase;
-  }
-
-  .page-wrapper {
-    padding-top: 8%;
-    flex: 1 0 auto;
-  }
-
-  .content-wrapper {
-    margin: 10px auto 0 auto;
-    flex: 1 0 auto;
-    width: 90%;
-
-    @media (min-width: ${props => props.theme.mobile}) {
-      width: 80%;
-    }
-  }
-
-  .section:nth-child(even) {
-    background: ${props => props.theme.mainLgray};
-  }
-
   .contactContainer {
-    background: ${props => props.theme.mainLgray};
     padding: 15px;
   }
 

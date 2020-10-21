@@ -83,6 +83,7 @@ export const Form = styled.form`
     position: absolute;
     background: ${props => props.theme.mainWhite};
     z-index: 0;
+    box-shadow: 5px 5px 15px 5px rgba(10, 10, 10, 0.1);
   }
 
   legend {

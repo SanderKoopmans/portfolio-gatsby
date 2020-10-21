@@ -28,17 +28,7 @@ const GlobalStyles = createGlobalStyle`
     flex-direction: column;
   }
 
-  h4 {
-    font-weight: 300;
-    text-transform: uppercase;
-  }
-
-  .section:nth-child(even) {
-    background: ${props => props.theme.mainLgray};
-  }
-
   .contactContainer {
-    background: ${props => props.theme.mainLgray};
     padding: 15px;
   }
 

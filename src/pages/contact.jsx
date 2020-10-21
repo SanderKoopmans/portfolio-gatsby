@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import SubBar from '../components/SubBar/SubBar';
 import { Columns, Column } from '../components/Columns';
+import { Section } from '../components/Sections';
 import { Form } from '../components/Form/Form.styled';
+import { H1 } from '../components/Font';
 import FormInput from '../components/Form/FormInput';
 import FormText from '../components/Form/FormText';
 import CallIcon from '@material-ui/icons/Call';
@@ -50,54 +52,59 @@ const Contact = () => {
     <>
       <SubBar />
       <Wrapper className='page-wrapper'>
-        <Wrapper className='content-wrapper'>
-          <Columns>
-            <Column>
-              <h3>Left column</h3>
-            </Column>
-            <Column>
-              <div className="contactContainer">
-                <Form onSubmit={handleSubmit} method="POST" >
-                      <FormInput 
-                        icon={<PersonIcon />}
-                        label='Name:'
-                        name='name'
-                        type='text'
-                        value={name}
-                        onChange={e => setName(e.target.value)}
-                        placeholder='Please enter your name'
-                        required
-                        className='input'
+          <Section className='section'>
+            <H1 className='mainAccent'>Ben je opzoek naar een snel antwoord? Of laat je liever een bericht achter?</H1>
+          </Section>
+          <Section className='section'>
+            <Wrapper className='content-wrapper'>
+            <Columns>
+              <Column>
+                <h3>Left column</h3>
+              </Column>
+              <Column>
+                <div className="contactContainer">
+                  <Form onSubmit={handleSubmit} method="POST" >
+                        <FormInput 
+                          icon={<PersonIcon />}
+                          label='Name:'
+                          name='name'
+                          type='text'
+                          value={name}
+                          onChange={e => setName(e.target.value)}
+                          placeholder='Please enter your name'
+                          required
+                          className='input'
+                          />
+                        <FormInput 
+                          icon={<EmailIcon />}
+                          label='Email:'
+                          name='email'
+                          type='text'
+                          value={email}
+                          onChange={e => setEmail(e.target.value)}
+                          placeholder='Please enter your email'
+                          required
+                          className='input'
+                          />
+                        <FormText 
+                          icon={<SubjectIcon />}
+                          label='Message:'
+                          name='message'
+                          type='text'
+                          value={message}
+                          onChange={e => setMessage(e.target.value)}
+                          placeholder='Write a short message'
+                          rows={5}
+                          required
+                          className='textarea'
                         />
-                      <FormInput 
-                        icon={<EmailIcon />}
-                        label='Email:'
-                        name='email'
-                        type='text'
-                        value={email}
-                        onChange={e => setEmail(e.target.value)}
-                        placeholder='Please enter your email'
-                        required
-                        className='input'
-                        />
-                      <FormText 
-                        icon={<SubjectIcon />}
-                        label='Message:'
-                        name='message'
-                        type='text'
-                        value={message}
-                        onChange={e => setMessage(e.target.value)}
-                        placeholder='Write a short message'
-                        rows={5}
-                        required
-                        className='textarea'
-                      />
-                      <button type="submit" className="contact-submit">Send message!</button>
-                    </Form>
-              </div>
-            </Column>
-          </Columns>
-        </Wrapper>
+                        <button type="submit" className="contact-submit">Send message!</button>
+                      </Form>
+                </div>
+              </Column>
+            </Columns>
+          </Wrapper>
+        </Section>
       </Wrapper>
       <Footer />
     </>
