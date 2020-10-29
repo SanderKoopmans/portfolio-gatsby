@@ -61,7 +61,7 @@ const Contact = () => {
             <Wrapper className='content-wrapper'>
             <Columns>
               <Column>
-                <H3>Bel direct</H3>
+                <H3>Bel direct!</H3>
                 <div className="contact-tel">
                   <A href="tel:06-30087005"><CallIcon /> +31 6 30087005</A>
                 </div>
@@ -73,12 +73,12 @@ const Contact = () => {
                   <Form onSubmit={handleSubmit} method="POST" >
                         <FormInput 
                           icon={<PersonIcon />}
-                          label='Name:'
+                          label='Naam:'
                           name='name'
                           type='text'
                           value={name}
                           onChange={e => setName(e.target.value)}
-                          placeholder='Please enter your name'
+                          placeholder='Vul hier je naam in'
                           required
                           className='input'
                           />
@@ -89,23 +89,23 @@ const Contact = () => {
                           type='text'
                           value={email}
                           onChange={e => setEmail(e.target.value)}
-                          placeholder='Please enter your email'
+                          placeholder='Vul hier je email in'
                           required
                           className='input'
                           />
                         <FormText 
                           icon={<SubjectIcon />}
-                          label='Message:'
+                          label='Bericht:'
                           name='message'
                           type='text'
                           value={message}
                           onChange={e => setMessage(e.target.value)}
-                          placeholder='Write a short message'
+                          placeholder='Schrijf een kort bericht'
                           rows={5}
                           required
                           className='textarea'
                         />
-                        <button type="submit" className="contact-submit">Send message!</button>
+                        <button type="submit" className="contact-submit">Verstuur bericht!</button>
                       </Form>
                 </div>
               </Column>

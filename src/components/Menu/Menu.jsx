@@ -7,7 +7,7 @@ const MobileMenu = ({ mobileMenuOpen }) => {
     <StyledMenu 
       className="MobileMenu" 
       mobileMenuOpen={mobileMenuOpen} >
-      <Link to="/about">About</Link>
+      <Link to="/about">Over</Link>
       <Link to="/portfolio">Portfolio</Link>
       <Link to="/contact">Contact</Link>
     </StyledMenu>

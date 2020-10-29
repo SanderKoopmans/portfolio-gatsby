@@ -52,7 +52,7 @@ const ContactSide = ({ contactSideOpen, setContactSideOpen }) => {
       contactSideOpen={contactSideOpen} >
         <div className="contactSide-menu">
           <H2 className='bold'>Let's talk!</H2>
-          <p>Call me right now, or leave a message and I'll get back to you within 24 hours.</p>
+          <p>Bel direct, of laat een bericht achter via het formulier. Ik kom binnen 24uur bij je terug!</p>
           <div className="contact-tel">
             <A href="tel:06-30087005"><CallIcon /> +31 6 30087005</A>
           </div>
@@ -60,12 +60,12 @@ const ContactSide = ({ contactSideOpen, setContactSideOpen }) => {
             <Form onSubmit={handleSubmit} method="POST" >
               <FormInput 
                 icon={<PersonIcon />}
-                label='Name:'
+                label='Naam:'
                 name='name'
                 type='text'
                 value={name}
                 onChange={e => setName(e.target.value)}
-                placeholder='Please enter your name'
+                placeholder='Vul hier je naam in'
                 required
                 className='input'
                 />
@@ -76,23 +76,23 @@ const ContactSide = ({ contactSideOpen, setContactSideOpen }) => {
                 type='text'
                 value={email}
                 onChange={e => setEmail(e.target.value)}
-                placeholder='Please enter your email'
+                placeholder='Vul hier je email in'
                 required
                 className='input'
                 />
               <FormText 
                 icon={<SubjectIcon />}
-                label='Message:'
+                label='Bericht:'
                 name='message'
                 type='text'
                 value={message}
                 onChange={e => setMessage(e.target.value)}
-                placeholder='Write a short message'
+                placeholder='Schrijf een kort bericht'
                 rows={5}
                 required
                 className='textarea'
               />
-              <button type="submit" className="contact-submit">Send message!</button>
+              <button type="submit" className="contact-submit">Verstuur bericht</button>
             </Form>
           </div>
         <button className="close-side" onClick={() => setContactSideOpen(!contactSideOpen)}><CloseIcon /></button>
