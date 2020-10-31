@@ -22,6 +22,11 @@ const GlobalStyles = createGlobalStyle`
     height: 100%;
   }
 
+  .span-highlight {
+    color: ${props => props.theme.mainHighlight};
+    font-weight: 700;
+  }
+
   #gatsby-focus-wrapper {
     height: 100%;
     display: flex;
