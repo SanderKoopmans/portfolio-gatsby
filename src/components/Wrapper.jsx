@@ -8,7 +8,7 @@ const StyledWrapper = styled.div`
   }
 
   &.content-wrapper {
-    margin: 10px auto 0 auto;
+    margin: 30px auto 0 auto;
     flex: 1 0 auto;
     width: 90%;
 

@@ -95,7 +95,7 @@ const ContactSide = ({ contactSideOpen, setContactSideOpen }) => {
               <button type="submit" className="contact-submit">Verstuur bericht</button>
             </Form>
           </div>
-        <button className="close-side" onClick={() => setContactSideOpen(!contactSideOpen)}><CloseIcon /></button>
+        <button className="close-side" onClick={() => setContactSideOpen(!contactSideOpen)} aria-label="Open menu"><CloseIcon /></button>
         </div>
       </StyledContactSide>
   );

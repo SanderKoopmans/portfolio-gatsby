@@ -54,6 +54,13 @@ const StyledH4 = styled.h4`
   }
 `;
 
+const StyledP = styled.p`
+  font-size: 1rem,
+  padding: 1rem 0;
+  margin: 1rem 0;
+  color: ${props => props.theme.mainBlack};
+`;
+
 const StyledA = styled.a`
   font-size: 1rem;
   text-transform: uppercase;
@@ -94,6 +101,12 @@ export const H3 = ({children, className}) => {
 export const H4 = ({children, className}) => {
   return (
     <StyledH4 className={className}>{children}</StyledH4>
+  );
+};
+
+export const P = ({ children, className}) => {
+  return (
+    <StyledP className={className}>{children}</StyledP>
   );
 };
 
