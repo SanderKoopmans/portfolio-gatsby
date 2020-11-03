@@ -8,6 +8,7 @@ const Intro = () => {
       <H2>Ben je opzoek naar een <span className='span-highlight'>nieuwe website</span>, app of is het tijd voor een <span className='span-highlight'>update</span>?</H2>
       <P>Een moderne website, die gebouwd is volgens moderne standaarden. Wordt door zoekmachines sneller gevonden en hoger in de resultaten geplaatst.</P>
       <Features />
+      [test]
     </>
   );
 };
