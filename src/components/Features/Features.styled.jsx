@@ -9,8 +9,4 @@ export const StyledList = styled.ul`
   svg {
     font-size: 3rem;
   }
-
-  p {
-    font-size: 0.9rem;
-  }
 `;

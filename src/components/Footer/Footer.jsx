@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       <div className="footer-tagline">
-        <h6>Got a project in mind?</h6>
+        <h6>Een project in gedachten?</h6>
       </div>
       <div 
         className="footer-cta"

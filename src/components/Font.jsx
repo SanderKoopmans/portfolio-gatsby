@@ -33,7 +33,6 @@ const StyledH3 = styled.h3`
   font-size: 1.5rem;
   color: ${props => props.theme.mainBlack};
   margin: 0 0 1rem 0;
-  padding-bottom: 1rem;
 
   &.mainWhite {
     color: ${props => props.theme.mainWhite};
@@ -55,10 +54,13 @@ const StyledH4 = styled.h4`
 `;
 
 const StyledP = styled.p`
-  font-size: 1rem,
-  padding: 1rem 0;
-  margin: 1rem 0;
+  font-size: 0.9rem;
+  padding: 0 0 1rem 0;
   color: ${props => props.theme.mainBlack};
+
+  @media (min-width: ${props => props.theme.mobile}) {
+    font-size: 1rem;
+  }
 `;
 
 const StyledA = styled.a`
