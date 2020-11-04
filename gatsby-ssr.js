@@ -20,11 +20,11 @@ const GlobalStyles = createGlobalStyle`
 
   a {
     font-size: 0.9rem;
-    color: ${props => props.theme.mainBlack};
+    color: ${props => props.theme.mainHighlight};
     text-decoration: none;
 
     &:hover {
-      color: ${props => props.theme.mainHighlight};
+      color: ${props => props.theme.mainBlack};
     }
 
     @media (min-width: ${props => props.theme.mobile}) {
