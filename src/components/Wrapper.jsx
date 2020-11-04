@@ -15,6 +15,10 @@ const StyledWrapper = styled.div`
     @media (min-width: ${props => props.theme.mobile}) {
       width: 80%;
     }
+
+    @media (min-width: ${props => props.theme.tablet}) {
+      width: 60%;
+    }
   }
 `;
 
