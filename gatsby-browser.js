@@ -18,6 +18,20 @@ const GlobalStyles = createGlobalStyle`
     flex-direction: column;
   }
 
+  a {
+    font-size: 0.9rem;
+    color: ${props => props.theme.mainBlack};
+    text-decoration: none;
+
+    &:hover {
+      color: ${props => props.theme.mainHighlight};
+    }
+
+    @media (min-width: ${props => props.theme.mobile}) {
+      font-size: 1rem;
+    }
+  }
+
   #___gatsby {
     height: 100%;
   }
@@ -25,6 +39,21 @@ const GlobalStyles = createGlobalStyle`
   .span-highlight {
     color: ${props => props.theme.mainHighlight};
     font-weight: 700;
+  }
+
+  .span-skills {
+    font-size: 0.9rem;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 20px;
+    background: ${props => props.theme.mainDgray};
+    border: 1px solid ${props => props.theme.mainDgray};
+    border-radius: 5px;
+    color: ${props => props.theme.mainHighlight};
+
+    @media (min-width: ${props => props.theme.mobile}) {
+      font-size: 1rem;
+    }
   }
 
   #gatsby-focus-wrapper {
@@ -53,6 +82,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   #homeLink {
+    font-size: 2rem;
     text-decoration: none;
     color: ${props => props.theme.mainWhite};
   }
