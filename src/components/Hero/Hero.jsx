@@ -35,7 +35,7 @@ const Hero = () => {
           <Link 
             to="/"
             id="homeLink">
-              SKoopmans
+              SK
             </Link>
           </StyledLogo>
         <div id="MobileMenu" ref={node}>

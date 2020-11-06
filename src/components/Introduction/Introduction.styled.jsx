@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
 export const StyledIntroduction = styled.div`
-  margin-bottom: 40px;
+  margin-bottom:40px;
 
   .introduction-header {
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
+    justify-content: center;
   }
 
   .introduction-picture {
@@ -14,8 +15,9 @@ export const StyledIntroduction = styled.div`
   }
 
   .introduction-picture img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(50% 0, 100% 50%, 100% 100%, 50% 100%, 0 50%);
   }
 
   .introduction-title {
