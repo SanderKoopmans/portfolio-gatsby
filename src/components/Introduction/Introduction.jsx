@@ -11,7 +11,7 @@ const Introduction = ({
   children
 }) => {
   return (
-    <StyledIntroduction className="introduction-block">
+    <StyledIntroduction className="introduction-block content-container">
       <div className="introduction-header">
         <div className="introduction-picture">
           <img 

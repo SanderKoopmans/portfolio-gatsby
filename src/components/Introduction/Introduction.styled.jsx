@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 export const StyledIntroduction = styled.div`
-  margin-bottom:40px;
-
   .introduction-header {
     display: flex;
     flex-direction: column;

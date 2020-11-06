@@ -86,6 +86,10 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
     color: ${props => props.theme.mainWhite};
   }
+
+  .content-container {
+    margin-bottom: 30px;
+  }
 `;
 
 export const wrapRootElement = ({ element }) => (
