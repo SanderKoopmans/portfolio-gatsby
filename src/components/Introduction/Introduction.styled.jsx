@@ -5,9 +5,13 @@ export const StyledIntroduction = styled.div`
 
   .introduction-header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 20px;
     justify-content: center;
+
+    @media (min-width: ${props => props.theme.tablet}) {
+      flex-direction: row;
+    }
   }
 
   .introduction-picture {
@@ -22,5 +26,16 @@ export const StyledIntroduction = styled.div`
 
   .introduction-title {
     margin: auto 0;
+  }
+
+  .introduction-title {
+
+    &::after {
+      content: '';
+      border-bottom: 2px solid ${props => props.theme.mainBgColor};
+      width: 100px;
+      display: block;
+      margin: 0 auto;
+    }
   }
 `;
