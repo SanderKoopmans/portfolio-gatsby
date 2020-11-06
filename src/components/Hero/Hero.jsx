@@ -5,6 +5,7 @@ import MobileBurger from '../Burger/MobileBurger';
 import MobileMenu from '../Menu/Menu';
 import { H1 } from '../Font';
 import { StyledHero, StyledTopBar, StyledLogo } from './Hero.styled';
+import TypeWriter from '../Typewriter/Typewriter';
 
 const Hero = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,8 +13,6 @@ const Hero = () => {
 
   const node = useRef();
   useOnClickOutside(node, () => setMobileMenuOpen(false));
-
-
   
   const changeTopBar = () => {
     if (window.scrollY >= 630) {
@@ -26,6 +25,8 @@ const Hero = () => {
   useEffect(() => {
     window.addEventListener('scroll', changeTopBar);
   })
+
+  let msgs = ['Dutch web developer', 'Working with React & Gatsby', 'Code Enthusiast', 'Triathlete', 'Full stack JS developer'];
 
   return (
     <StyledHero>
@@ -49,7 +50,7 @@ const Hero = () => {
       </StyledTopBar>
       <div className="headerContent">
         <H1 className="mainTitle">Sander Koopmans</H1>
-        <p className="mainIntro">Dutch web developer using react.js, node.js and material-ui</p>
+        <p className="mainIntro"><TypeWriter messages={msgs} /></p>
       </div>
     </StyledHero>
   );
