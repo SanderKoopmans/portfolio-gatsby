@@ -7,6 +7,7 @@ import profile from './profile.jpg';
 const IntroAbout = () => {
   return (
     <Introduction 
+      className='introduction-img clip'
       image={profile} 
       imageAlt='Profile picture of Sander'
       intro='Hi, ik ben ' 

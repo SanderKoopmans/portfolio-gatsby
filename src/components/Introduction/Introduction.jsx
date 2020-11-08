@@ -3,6 +3,7 @@ import { H2, P } from '../Font';
 import { StyledIntroduction } from './Introduction.styled';
 
 const Introduction = ({
+  className,
   image,
   imageAlt,
   intro,
@@ -15,7 +16,7 @@ const Introduction = ({
       <div className="introduction-header">
         <div className="introduction-picture">
           <img 
-            className="introduction-img"
+            className={className}
             src={image}
             alt={imageAlt} />
         </div>
