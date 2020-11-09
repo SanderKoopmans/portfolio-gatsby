@@ -88,7 +88,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .content-container {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 `;
 

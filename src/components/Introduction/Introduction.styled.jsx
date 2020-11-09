@@ -34,6 +34,17 @@ export const StyledIntroduction = styled.div`
     &::after {
       content: '';
       border-bottom: 2px solid ${props => props.theme.mainBgColor};
+      width: 50px;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+  }
+
+  .introduction-context {
+
+    &::after {
+      content: '';
+      border-bottom: 2px solid ${props => props.theme.mainBgColor};
       width: 100px;
       display: block;
       margin: 0 auto;

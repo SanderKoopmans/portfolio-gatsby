@@ -12,7 +12,8 @@ const Portfolio = () => {
       <Wrapper className='page-wrapper'>
         <Wrapper className='content-wrapper'>
           <H2>Welkom op mijn portfolio!</H2>
-          <P>Hier zijn een aantal van mijn projecten te vinden. Met een korte uitleg over het hoe en wat.</P>
+          <P>Hier zijn een aantal van mijn projecten te vinden. Met daarbij een korte beschrijving.</P>
+          <br />
           <PortfolioContainer />
         </Wrapper>
       </Wrapper>
