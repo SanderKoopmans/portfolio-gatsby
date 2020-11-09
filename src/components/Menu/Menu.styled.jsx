@@ -42,7 +42,6 @@ export const StyledMenu = styled.nav`
   .small {
     font-size: 1rem;
     padding: 1rem;
-    margin: 0 auto;
     justify-content: flex-end;
   }
 `;

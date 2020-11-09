@@ -22,7 +22,7 @@ export const StyledBurger = styled.button`
   .burgerBar {
     width: 2rem;
     height: 0.2rem;
-    background: ${( props, mobileMenuOpen ) => mobileMenuOpen ? props.theme.mainBgColor : props.theme.mainWhite };
+    background: ${props => props.theme.mainWhite};
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
@@ -38,6 +38,10 @@ export const StyledBurger = styled.button`
 
     :nth-child(3) {
       transform: ${({ mobileMenuOpen }) => mobileMenuOpen ? 'rotate(-45deg)' : 'rotate(0)'};
+    }
+
+    &.openMenu {
+      background: ${props => props.theme.mainBgColor};
     }
   }
 `;

@@ -7,9 +7,9 @@ const MobileBurger = ({ mobileMenuOpen, setMobileMenuOpen }) => {
     <StyledBurger
       mobileMenuOpen={mobileMenuOpen}
       onClick={() => setMobileMenuOpen(!mobileMenuOpen)} >
-      <div className="burgerBar"/>
-      <div className="burgerBar"/>
-      <div className="burgerBar"/>
+      <div className={mobileMenuOpen ? "burgerBar openMenu" : "burgerBar"}/>
+      <div className={mobileMenuOpen ? "burgerBar openMenu" : "burgerBar"}/>
+      <div className={mobileMenuOpen ? "burgerBar openMenu" : "burgerBar"}/>
     </StyledBurger>
   )
 }
