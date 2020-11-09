@@ -38,4 +38,11 @@ export const StyledMenu = styled.nav`
       color: ${props => props.theme.mainHighlight};
     }
   }
+
+  .small {
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    justify-content: flex-end;
+  }
 `;
