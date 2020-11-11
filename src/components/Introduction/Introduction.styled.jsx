@@ -40,14 +40,14 @@ export const StyledIntroduction = styled.div`
     }
   }
 
-  .introduction-context {
+  // .introduction-context {
 
-    &::after {
-      content: '';
-      border-bottom: 2px solid ${props => props.theme.mainBgColor};
-      width: 100px;
-      display: block;
-      margin: 0 auto;
-    }
-  }
+  //   &::after {
+  //     content: '';
+  //     border-bottom: 2px solid ${props => props.theme.mainBgColor};
+  //     width: 100px;
+  //     display: block;
+  //     margin: 0 auto;
+  //   }
+  // }
 `;

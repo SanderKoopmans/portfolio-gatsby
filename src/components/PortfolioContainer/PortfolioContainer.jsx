@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import { H2, P } from '../Font';
 import { OL } from '../List';
 import Introduction from '../Introduction/Introduction';
@@ -16,12 +17,8 @@ const PortfolioContainer = () => {
         intro='Personal site '
         name='sanderkoopmans.nl' 
         title='Personal website'>
-        <P>Na het afronden van de opleiding, ben ik begonnen met het bouwen van deze website.</P>
-        <P>Tijdens het bouwen heb ik verschillende technieken geprobeerd. En ben uiteindelijk met React en Gatsby verder gegaan. </P>
-        <P>Het bouwen heeft mij veel geleerd over onder andere SEO optimalisatie, SSR vs CSR en MPA vs SPA. Het gebruik van Gatsby stelt mij in staat een snelle website te bouwen volgens het React framework. En daarnaast gebruik te maken van SSR voor betere indexering van zoekmachines.</P>
-        <span className='span-skills'>Gatsby</span>
-        <span className='span-skills'>React</span>
-        <span className='span-skills'>REST APIs</span>
+        <P>Na het afronden van de opleiding, ben ik begonnen met mijn persoonlijke website. Dit is mijn plek om technieken te testen en showcasen.</P>
+        <Link to='/portfolio/personal' className='button'>Bekijk project</Link>
       </Introduction>
       <Introduction
         className='introduction-img'

@@ -90,6 +90,16 @@ const GlobalStyles = createGlobalStyle`
   .content-container {
     margin-bottom: 50px;
   }
+
+  .button {
+    font-size: 0.9rem;
+    margin: 5px;
+    padding: 5px 15px;
+    background: ${props => props.theme.mainHighlight};
+    color: ${props => props.theme.mainWhite};
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px ${props => props.theme.shadowLgray};
+  }
 `;
 
 export const wrapRootElement = ({ element }) => (
