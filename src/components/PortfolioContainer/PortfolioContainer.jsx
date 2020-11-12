@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { H2, P } from '../Font';
-import { OL } from '../List';
+import { P } from '../Font';
 import Introduction from '../Introduction/Introduction';
 import nomad from './Nomad_screen.jpg';
 import mealplanner from './Meal_planner2.jpg';
@@ -17,7 +16,7 @@ const PortfolioContainer = () => {
         intro='Personal site '
         name='sanderkoopmans.nl' 
         title='Personal website'>
-        <P>Na het afronden van de opleiding, ben ik begonnen met mijn persoonlijke website. Dit is mijn plek om technieken te testen en showcasen.</P>
+        <P>Mijn persoonlijke site. Mijn online speeltuin om nieuwe technieken te proberen en mijn werk te laten zien.</P>
         <Link to='/portfolio/personal' className='button'>Bekijk project</Link>
       </Introduction>
       <Introduction
@@ -27,17 +26,8 @@ const PortfolioContainer = () => {
         intro='Final project '
         name='Nomad' 
         title='</Salt> Final Project'>
-        <P>Als eindproject voor School of Applied Technology werd ons gevraagd een project te bouwen om al ons geleerde in de praktijk te brengen.</P>
-        <P>Deze moest aan de volgende eisen voldoen:</P>
-        <OL>
-          <li>Full Stack Applicatie</li>
-          <li>Binnen 2 weken gebouwd</li>
-          <li>Duidelijke probleemstelling</li>
-        </OL>
-        <span className='span-skills'>React</span>
-        <span className='span-skills'>ExpressJS</span>
-        <span className='span-skills'>REST APIs</span>
-        <span className='span-skills'>FireBase</span>
+        <P>Nomad een CMS om developers bij elkaar te brengen en elkaar te helpen, door vragen te kunnen stellen en buddy-programming afspraken te plannen.</P>
+        <Link to='/portfolio/nomad' className='button'>Bekijk project</Link>
       </Introduction>
       <Introduction
         className='introduction-img'
@@ -46,11 +36,8 @@ const PortfolioContainer = () => {
         intro='Hackday project '
         name='Meal Planner' 
         title='</Salt> Hackday Project'>
-        <P>Tegen het einde van de opleiding kregen we de opdracht om binnen een dag een project te bouwen.</P>
-        <P>We moesten zelf met het idee komen, gebruik maken van een front-end en back-end. In combinatie met een API of database.</P>
-        <span className='span-skills'>React</span>
-        <span className='span-skills'>ExpressJS</span>
-        <span className='span-skills'>REST APIs</span>
+        <P>Zoek recepten en bewaar ze in je eigen selectie.</P>
+        <Link to='/portfolio/mealplanner' className='button'>Bekijk project</Link>
       </Introduction>
     </>
   );

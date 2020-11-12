@@ -17,8 +17,8 @@ export const StyledIntroduction = styled.div`
   }
 
   .introduction-picture img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 300px;
 
     &.clip {
       clip-path: polygon(50% 0, 100% 50%, 100% 100%, 50% 100%, 0 50%);
@@ -39,15 +39,4 @@ export const StyledIntroduction = styled.div`
       margin: 0 auto 20px auto;
     }
   }
-
-  // .introduction-context {
-
-  //   &::after {
-  //     content: '';
-  //     border-bottom: 2px solid ${props => props.theme.mainBgColor};
-  //     width: 100px;
-  //     display: block;
-  //     margin: 0 auto;
-  //   }
-  // }
 `;

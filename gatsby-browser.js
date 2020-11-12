@@ -88,16 +88,26 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .content-container {
+    margin-bottom: 150px;
+  }
+
+  .sub-container {
     margin-bottom: 50px;
   }
 
   .button {
+    font-size: 0.9rem;
     margin: 5px;
     padding: 5px 15px;
-    background: ${props => props.theme.mainHighlight};
+    background: ${props => props.theme.mainBgColor};
     color: ${props => props.theme.mainWhite};
     border-radius: 3px;
     box-shadow: 3px 3px 10px ${props => props.theme.shadowLgray};
+    transition: 0.3s ease;
+
+    &:hover {
+      background: ${props => props.theme.mainHighlight};
+    }
   }
 `;
 
