@@ -4,7 +4,7 @@ import Footer from '../../components/Footer/Footer';
 import SubBar from '../../components/SubBar/SubBar';
 import Wrapper from '../../components/Wrapper';
 import { H2, P } from '../../components/Font';
-import { StyledPortfolioItem } from './PortfolioItem.styled';
+import { StyledPortfolioItem } from '../../components/PortfolioItem.styled';
 import { Table } from '../../components/Table';
 import  portfolio from './personal_menu.jpg';
 
