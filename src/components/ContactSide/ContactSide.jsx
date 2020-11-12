@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyledContactSide } from './ContactSide.styled';
 import { Form } from '../Form/Form.styled';
-import { H2, A } from '../Font';
+import { H2, A, P } from '../Font';
 import FormInput from '../Form/FormInput';
 import FormText from '../Form/FormText';
 import CallIcon from '@material-ui/icons/Call';
@@ -52,7 +52,7 @@ const ContactSide = ({ contactSideOpen, setContactSideOpen }) => {
       contactSideOpen={contactSideOpen} >
         <div className="contactSide-menu">
           <H2 className='bold'>Let's talk!</H2>
-          <p>Bel direct, of laat een bericht achter via het formulier. Ik kom binnen 24uur bij je terug!</p>
+          <P>Bel direct, of laat een bericht achter via het formulier.</P>
           <div className="contact-tel">
             <A href="tel:06-30087005"><CallIcon /> +31 6 30087005</A>
           </div>

@@ -13,7 +13,6 @@ const GlobalStyles = createGlobalStyle`
     font-family: ${props => props.theme.mainFont};
     height: 100%;
     color: ${props => props.theme.mainBlack};
-    text-align: center;
     display: flex;
     flex-direction: column;
   }

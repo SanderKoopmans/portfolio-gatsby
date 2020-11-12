@@ -14,6 +14,7 @@ justify-content: center;
   height: 100%;
   margin: 0 auto;
   justify-content: center;
+  text-align: center;
 }
 
 .mainTitle, .mainIntro {

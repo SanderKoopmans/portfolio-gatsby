@@ -6,7 +6,8 @@ export const StyledIntroduction = styled.div`
     flex-direction: column;
     margin-bottom: 20px;
     justify-content: center;
-
+    text-align: center;
+    
     @media (min-width: ${props => props.theme.tablet}) {
       flex-direction: row;
     }

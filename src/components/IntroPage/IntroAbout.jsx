@@ -6,16 +6,19 @@ import profile from './profile.jpg';
 
 const IntroAbout = () => {
   return (
-    <Introduction 
-      className='introduction-img clip'
-      image={profile} 
-      imageAlt='Profile picture of Sander'
-      intro='Hi, ik ben ' 
-      name='Sander'
-      title='Fullstack JavaScript Developer'>
-        <P>Ik bouw websites, apps en software. En leer elke dag iets nieuws.</P>
-        <P>Begin 2020 heb ik mijn baan opgezegd bij Marqt. En ben ik mijn programmeer avontuur begonnen bij de coding bootcamp van School of Applied Technology. <Link to="/about">Lees verder... ></Link></P>
-      </Introduction>
+    <div className="content-container">
+      <Introduction 
+        className='introduction-img clip'
+        image={profile} 
+        imageAlt='Profile picture of Sander'
+        intro='Hi, ik ben ' 
+        name='Sander'
+        title='Fullstack JavaScript Developer'>
+          <P>Ik heb begin 2020 de keuze gemaakt om een carrière in de IT te gaan bouwen.</P>
+          <P>Na jaren in de retail te hebben gewerkt, en daarnaast op hoog niveau te sporten. Heb ik begin 2020 mijn baan opgezegd bij Marqt. En ben ik mijn avontuur begonnen bij de coding bootcamp van School of Applied Technology.</P>
+          <P>Ik heb altijd een project in de maak om nieuwe technieken te proberen.</P><Link to="/about" className="button">Naar Over Mij</Link>
+        </Introduction>
+    </div>
   );
 };
 
