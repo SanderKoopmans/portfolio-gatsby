@@ -16,13 +16,13 @@ export const StyledPortfolioItem = styled.div`
   }
 
   .itemScreenshot {
-    width: 50%;
+    width: 100%;
     align-self: center;
   }
 
   @media (min-width: ${props => props.theme.tablet}) {
     .itemScreenshot {
-      width: 50%;
+      width: 70%;
       box-shadow: 10px 10px 10px ${props => props.theme.shadowLgray};
       margin-bottom: 50px;
     }

@@ -52,9 +52,11 @@ const Nomad = () => {
                 </tbody>
               </Table>
             </div>
-            <img 
-              src={nomad}
-              className="itemScreenshot" />
+            <div className="image-container">
+              <img 
+                src={nomad}
+                className="itemScreenshot smaller" />
+            </div>
             <div className="sub-container">
               <H2>Project Goal</H2>
               <P>We hebben besloten om dit project te bouwen, omdat er naar ons inzicht geen plaats is om technische vraagstukken te combineren met het plannen van sessies om elkaar te helpen.</P>
@@ -82,7 +84,7 @@ const Nomad = () => {
               <P>We hebben gekozen om te zorgen voor een MVP die vanaf het begin live stond. En zijn na het ruwe werk verder gegaan met verfijnen door telkens een feature toe te voegen.</P>
               <P>Een andere uitdaging zat in de text-editor. We willen gebruikers de mogelijkheid bieden om hun eigen text opmaak te bepalen. En deze door de site ook precies zo te renderen. De gebruikte editor bouwde een complexe array met daarin verschillende objecten om de data op te slaan in onze database.</P>
             </div>
-            <div className="sub-container text-center">
+            <div className="sub-container">
               <H2>Learnings</H2>
               <P>Dit project heeft mij persoonlijk veel geleerd over het zelf sturen van een groter project. Verschillende taken wegzetten en samen naar één doel toe werken. Zonder precies te weten welke uitdagingen we onderweg tegen zouden komen.</P>
               <P>We stonden er vanaf het begin af aan volledig zelf voor, de enige steun van instructeurs was op het technische vlak als we er zelf echt niet meer uit kwamen.</P>

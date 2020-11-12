@@ -76,7 +76,7 @@ const Personal = () => {
               <P>Ik dacht in eerste instantie een website te maken volledig met React als SPA. Echter is dit nadelig voor zoekmachines.</P>
               <P>Hierdoor ben ik mij gaan verdiepen in SEO met name het verschil in een SPA en MPA. Dit heeft mij veel geleerd over wanneer een render plaats vindt. Wanneer de bezoeker met de site kan interacteren en de ervaren snelheid van de pagina.</P>
             </div>
-            <div className="sub-container text-center">
+            <div className="sub-container">
               <H2>Learnings</H2>
               <P>Dit project is mijn experiment en mijn showcase. Ik leer veel over SEO, React, Gatsby en Hosting. Voor mijn contact formulier heb ik mij verdiept in PHP, dit draait vlekkeloos op mijn hosting zonder toevoegingen of omwegen.</P>
               <P>Voor de toekomst ga ik ervoor zorgen dat content geladen wordt door een markdown file of vergelijkbaar. Op dit moment is een groot gedeelte nog geschreven in de codebase. Dit wil ik scheiden, maar voor MVP is het goed genoeg.</P>
