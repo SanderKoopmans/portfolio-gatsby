@@ -1,2 +1,0 @@
-<P>Tijdens het bouwen heb ik verschillende technieken geprobeerd. En ben uiteindelijk met React en Gatsby verder gegaan. </P>
-<P>Het bouwen heeft mij veel geleerd over onder andere SEO optimalisatie, SSR vs CSR en MPA vs SPA. Het gebruik van Gatsby stelt mij in staat een snelle website te bouwen volgens het React framework. En daarnaast gebruik te maken van SSR voor betere indexering van zoekmachines.</P>

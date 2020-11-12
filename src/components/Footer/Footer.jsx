@@ -21,7 +21,7 @@ const Footer = () => {
       <ContactSide 
         contactSideOpen={contactSideOpen}
         setContactSideOpen={setContactSideOpen} />
-      <div className="footer-close">
+      <div className="footer-close text-center">
         <p className="footer-copy">Copyright 2020 <Link to="/">Sander Koopmans</Link></p>
       </div>
     </StyledFooter>

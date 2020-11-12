@@ -43,6 +43,5 @@ export const StyledMenu = styled.nav`
     font-size: 1rem;
     padding: 1rem;
     justify-content: flex-end;
-    text-align: center;
   }
 `;

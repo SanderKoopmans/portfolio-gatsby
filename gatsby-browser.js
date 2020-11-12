@@ -87,11 +87,21 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .content-container {
-    margin-bottom: 150px;
+    max-width: 65ch;
+    margin: 0 auto 150px auto;
   }
 
   .sub-container {
+    max-width: 65ch;
     margin-bottom: 50px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .bold {
+    font-weight: 700;
   }
 
   .button {

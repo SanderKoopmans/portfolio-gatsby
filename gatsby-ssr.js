@@ -94,6 +94,14 @@ const GlobalStyles = createGlobalStyle`
     margin-bottom: 50px;
   }
 
+  .text-center {
+    text-align: center;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
   .button {
     font-size: 0.9rem;
     margin: 5px;
