@@ -7,14 +7,14 @@ const StyledTable = styled.table`
 
   th {
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     padding-bottom: 20px;
   }
 
   td {
     width: 100px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-bottom: 5px;
   }
 
