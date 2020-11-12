@@ -34,7 +34,7 @@ justify-content: center;
 export const StyledTopBar = styled.nav`
   position: fixed;
   top: 0;
-  height: 55px;
+  height: 65px;
   width: 100%;
   transition: all 0.3s linear;
   z-index: 10;

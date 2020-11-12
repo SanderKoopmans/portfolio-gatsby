@@ -3,7 +3,7 @@ import SubBar from '../components/SubBar/SubBar';
 import { Columns, Column } from '../components/Columns';
 import { Section } from '../components/Sections';
 import { Form } from '../components/Form/Form.styled';
-import { H2, H3, H4, A } from '../components/Font';
+import { H2, H3, H4, A, P } from '../components/Font';
 import FormInput from '../components/Form/FormInput';
 import FormText from '../components/Form/FormText';
 import CallIcon from '@material-ui/icons/Call';
@@ -53,9 +53,9 @@ const Contact = () => {
       <SubBar />
       <Wrapper className='page-wrapper'>
           <header className='section background content-small'>
-            <H4 className='mainWhite'>Heb je een vraag?</H4>
-            <H2 className='mainWhite'>Neem contact op!</H2>
-            <p>Ik ben hier om te helpen, en elke vraag die je hebt te beantwoorden. Ik kijk ernaar uit van je te horen.</p>
+            <H4>Heb je een vraag?</H4>
+            <H2>Neem contact op!</H2>
+            <P>Ik ben hier om te helpen, en elke vraag die je hebt te beantwoorden. Ik kijk ernaar uit van je te horen.</P>
           </header>
           <Section className='section'>
             <Wrapper className='content-wrapper'>
@@ -66,7 +66,7 @@ const Contact = () => {
                   <A href="tel:06-30087005"><CallIcon /> +31 6 30087005</A>
                 </div>
                 <br />
-                <p>Of laat een bericht achter en ik kom bij je terug binnen 24 uur.</p>
+                <p>Of laat een bericht achter en ik kom bij je terug.</p>
               </Column>
               <Column>
                 <div className="contactContainer">

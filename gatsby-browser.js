@@ -96,12 +96,44 @@ const GlobalStyles = createGlobalStyle`
     margin-bottom: 50px;
   }
 
+  .img-container {
+    margin-bottom: 50px;
+  }
+
+  .img-container img {
+    width: 100%;
+  }
+
   .text-center {
     text-align: center;
   }
 
   .bold {
     font-weight: 700;
+  }
+
+  .content-columns {
+    .content-left {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    @media (min-width: ${props => props.theme.tablet}) {
+      display: flex;
+      flex-direction: row;
+
+      .content-left, .content-right {
+        width: 50%;
+      }
+
+      .content-left {
+        margin: auto 0;
+      }
+
+      .content-right {
+        margin-left: 20px;
+      }
+    }
   }
 
   .button {
