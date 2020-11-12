@@ -29,7 +29,7 @@ const Personal = () => {
                   <tr>
                     <td>Personal</td>
                     <td>Gatsby</td>
-                    <td><a href="https://github.com/SanderKoopmans/portfolio-gatsby">Repository</a></td>
+                    <td><a href="https://github.com/SanderKoopmans/portfolio-gatsby" target="_blanc">Repository</a></td>
                     <td><Link to="/">Home</Link></td>
                   </tr>
                   <tr>
@@ -55,7 +55,8 @@ const Personal = () => {
             <div className="sub-container">
               <H2>Project Goal</H2>
               <P>In eerste plaats is het doel van deze site om een plek te hebben waar ik kan experimenteren. Daarnaast is het een mooie plek om mijn verhaal rondom gemaakte projecten te kunnen delen.</P>
-              <P>Door het hebben van deze website leer ik meer over onder andere servers, en hoe daarmee om te gaan. Contact formuliertje? Simpel met Node & ExpressJS, als dat draait op je hosting...</P>
+              <P>Door het hebben van deze website leer ik meer over onder andere servers, en hoe daarmee om te gaan. Contact formuliertje? Simpel met NodeJS & ExpressJS, als dat draait op je hosting...</P>
+              <P>Dit project ondergaat continu veranderingen. Bijvoorbeeld toevoegen van accessibility features & dynamische content</P>
             </div>
             <div className="sub-container">
               <div className="content-columns">

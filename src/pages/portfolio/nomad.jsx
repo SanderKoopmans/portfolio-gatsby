@@ -16,7 +16,7 @@ const Nomad = () => {
           <StyledPortfolioItem className="content-container">
             <div className="sub-container">
               <H2>Nomad</H2>
-              <P>Nomad is gebouwd als eindproject voor School of Applied Technology samen met <a href="https://github.com/Eemelinen" className="bold">Eemeli</a>, <a href="https://github.com/Kennettimmers" className="bold">Kennet</a> & <a href="https://github.com/mhlgoossens" className="bold">Marc</a>. We hebben besloten om een CMS te bouwen als platform voor developers. Een plek om elkaar te helpen en samen buddy- (MOB)- programming sessies te plannen.</P>
+              <P>Nomad is gebouwd als eindproject voor School of Applied Technology samen met <a href="https://github.com/Eemelinen" className="bold" target="_blanc">Eemeli</a>, <a href="https://github.com/Kennettimmers" className="bold" target="_blanc">Kennet</a> & <a href="https://github.com/mhlgoossens" className="bold" target="_blanc">Marc</a>. We hebben besloten om een CMS te bouwen als platform voor developers. Een plek om elkaar te helpen en samen buddy- (MOB)- programming sessies te plannen.</P>
               <Table>
                 <tbody>
                   <tr>
@@ -28,8 +28,8 @@ const Nomad = () => {
                   <tr>
                     <td>Team project</td>
                     <td>React</td>
-                    <td><a href="https://github.com/ellipsisMob/nomad">Repository</a></td>
-                    <td><a href="https://www.youtube.com/watch?v=o5sWn9y_rU4&feature=youtu.be">Youtube</a></td>
+                    <td><a href="https://github.com/ellipsisMob/nomad" target="_blanc">Repository</a></td>
+                    <td><a href="https://www.youtube.com/watch?v=o5sWn9y_rU4&feature=youtu.be" target="_blanc">Youtube</a></td>
                   </tr>
                   <tr>
                     <td></td>

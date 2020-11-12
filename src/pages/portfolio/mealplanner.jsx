@@ -27,7 +27,7 @@ const Mealplanner = () => {
                   <tr>
                     <td>Hackday</td>
                     <td>React</td>
-                    <td><a href="https://github.com/SanderKoopmans/meal-planner">Repository</a></td>
+                    <td><a href="https://github.com/SanderKoopmans/meal-planner" target="_blanc">Repository</a></td>
                   </tr>
                   <tr>
                     <td></td>
