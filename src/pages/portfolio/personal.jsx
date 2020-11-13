@@ -50,6 +50,7 @@ const Personal = () => {
             <div className="image-container">
               <img 
                 src={portfolio}
+                alt='screenshot of sanderkoopmans.nl menu'
                 className="itemScreenshot smaller" />
             </div>
             <div className="sub-container">

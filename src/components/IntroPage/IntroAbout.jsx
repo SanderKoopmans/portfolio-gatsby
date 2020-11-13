@@ -15,8 +15,7 @@ const IntroAbout = () => {
         name='Sander'
         title='Fullstack JavaScript Developer'>
           <P>Ik heb begin 2020 de keuze gemaakt om een carrière in de IT te gaan bouwen.</P>
-          <P>Na jaren in de retail te hebben gewerkt, en daarnaast op hoog niveau te sporten. Heb ik begin 2020 mijn baan opgezegd bij Marqt. En ben ik mijn avontuur begonnen bij de coding bootcamp van School of Applied Technology.</P>
-          <P>Ik heb altijd een project in de maak om nieuwe technieken te proberen.</P><Link to="/about" className="button">Naar Over Mij</Link>
+          <P>Vanaf de middelbare school ontwikkelde zich de interesse in python en experimenteerde ik veel. Hoewel ik jarenlang op hoog niveau heb gesport en ik daarnaast mijn baan in de Retail had, waar ik in verschillende functies ben gegroeid, heb ik begin 2020 mijn baan bij Marqt opgezegd. Om mijn interesse na te jagen. Ik ben mijn avontuur begonnen bij de coding bootcamp van School of Applied Technology.</P><Link to="/about" className="button">Naar Over Mij</Link>
         </Introduction>
     </div>
   );

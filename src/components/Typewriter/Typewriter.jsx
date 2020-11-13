@@ -27,7 +27,7 @@ const TypeWriter = ({ messages }) => {
     };
     handleType();
     return () => clearTimeout(timer);
-  }, [state.isDeleting]);
+  }, [state.isDeleting, state.typingSpeed]);
 
   useEffect(() => {
     if (!state.isDeleting && state.text === state.message) {

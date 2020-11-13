@@ -47,6 +47,7 @@ const Mealplanner = () => {
             <div className="image-container">
               <img 
                 src={mealplanner}
+                alt='screenshot of mealplanner search results'
                 className="itemScreenshot" />
             </div>
             <div className="sub-container">

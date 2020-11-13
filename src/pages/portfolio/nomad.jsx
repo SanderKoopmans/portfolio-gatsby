@@ -55,6 +55,7 @@ const Nomad = () => {
             <div className="image-container">
               <img 
                 src={nomad}
+                alt='screenshot of Nomad home page'
                 className="itemScreenshot smaller" />
             </div>
             <div className="sub-container">

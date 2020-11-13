@@ -7,6 +7,12 @@ import ContactSide from '../ContactSide/ContactSide';
 const Footer = () => {
   const [contactSideOpen, setContactSideOpen] = useState(false);
 
+  const handleKeyDown = e => {
+    if (e.keyCode === 13) {
+      setContactSideOpen(true);
+    }
+  }
+
   return (
     <StyledFooter>
       <div className="footer-tagline">
@@ -14,8 +20,11 @@ const Footer = () => {
       </div>
       <div 
         className="footer-cta"
+        role="button"
         contactSideOpen={contactSideOpen}
-        onClick={() => setContactSideOpen(!contactSideOpen)} >
+        onClick={() => setContactSideOpen(!contactSideOpen)}
+        onKeyDown={e => handleKeyDown(e)}
+        tabIndex={0} >
         <h1>Let's talk</h1><MyArrow />
       </div>
       <ContactSide 
