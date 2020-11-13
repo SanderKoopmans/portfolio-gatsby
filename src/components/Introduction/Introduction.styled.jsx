@@ -18,8 +18,8 @@ export const StyledIntroduction = styled.div`
   }
 
   .introduction-picture img {
-    width: 100%;
-    height: 300px;
+    width: 280px;
+    height: 280px;
 
     &.clip {
       clip-path: polygon(50% 0, 100% 50%, 100% 100%, 50% 100%, 0 50%);
