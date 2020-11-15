@@ -11,6 +11,7 @@ const Home = () => {
     <div className="application">
       <Helmet>
         <meta charSet="utf-8" />
+        <link rel='icon' href={favicon} />
         <title>SK | JavaScript developer</title>
       </Helmet>
       <div className="heroWrapper">
