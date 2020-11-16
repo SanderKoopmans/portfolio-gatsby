@@ -22,6 +22,7 @@ const IntroSkills = () => {
       <div className="content-container">
         <H3>Waar ik aan heb gewerkt</H3>
         <P>Ik hou ervan om bezig te blijven en verder te leren en experimenteren. Kijk hier naar een aantal van mijn projecten.</P>
+        <br />
         <PortfolioContainer />
       </div>
     </>

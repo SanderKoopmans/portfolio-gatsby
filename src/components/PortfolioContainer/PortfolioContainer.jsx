@@ -17,6 +17,7 @@ const PortfolioContainer = () => {
         name='sanderkoopmans.nl' 
         title='Personal website'>
         <P>Mijn persoonlijke site. Mijn online speeltuin om nieuwe technieken te proberen en mijn werk te laten zien.</P>
+        <br />
         <Link to='/portfolio/personal' className='button'>Bekijk project</Link>
       </Introduction>
       <Introduction
@@ -27,6 +28,7 @@ const PortfolioContainer = () => {
         name='Nomad' 
         title='</Salt> Final Project'>
         <P>Nomad een CMS om developers bij elkaar te brengen en elkaar te helpen, door vragen te kunnen stellen en buddy-programming afspraken te plannen.</P>
+        <br />
         <Link to='/portfolio/nomad' className='button'>Bekijk project</Link>
       </Introduction>
       <Introduction
@@ -37,6 +39,7 @@ const PortfolioContainer = () => {
         name='Meal Planner' 
         title='</Salt> Hackday Project'>
         <P>Zoek recepten en bewaar ze in je eigen selectie.</P>
+        <br />
         <Link to='/portfolio/mealplanner' className='button'>Bekijk project</Link>
       </Introduction>
     </>

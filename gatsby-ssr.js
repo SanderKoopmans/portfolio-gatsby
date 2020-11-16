@@ -93,7 +93,7 @@ const GlobalStyles = createGlobalStyle`
 
   .sub-container {
     max-width: 65ch;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
 
   .img-container {
@@ -138,7 +138,6 @@ const GlobalStyles = createGlobalStyle`
 
   .button {
     font-size: 0.9rem;
-    margin: 5px;
     padding: 5px 15px;
     background: ${props => props.theme.mainBgColor};
     color: ${props => props.theme.mainWhite};
